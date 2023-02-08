@@ -1,0 +1,70 @@
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var( --main-background);
+    font-family:'Inter' ;
+}
+
+ .card-container .card-information{
+    background-color: var(--card-background);
+    max-width: 516px;
+    border-radius: 10px 0 0 10px;
+    height: 402px;
+}
+
+.card-container .card-information .card-slogan{
+ 
+    color: var( --main-heading);
+    padding: 65px 60px 15px 65px;
+}
+
+.card-container .card-information .card-slogan .slogan{
+ 
+    color: var(--accent);
+    
+}
+
+.card-container .card-information .card-text{
+    color: var( --main-paragrap);
+    padding: 10px 120px 40px 65px;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+
+.card-container .card-information .card-numbers{
+    padding: 2px 0 0 42px ;
+    display: flex;
+   justify-content:left;
+}
+.card-container .card-information .card-numbers .info{
+     padding: 25px;
+    }
+
+.card-container .card-information .card-numbers .info .counter{
+    color: var(--main-heading);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-container .card-information .card-numbers .info .counter-type{
+    color: var(--stat-headings);
+}
+
+
+.card-image{
+    width: 486px;
+    height: 402px;
+
+}
+
+.image-card{
+    width: 100%;
+}
+
+
+
+
