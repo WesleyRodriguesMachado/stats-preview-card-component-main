@@ -6,6 +6,8 @@
     height: 100vh;
     background-color: var( --main-background);
     font-family:'Inter' ;
+    
+    
 }
 
  .card-container .card-information{
@@ -19,6 +21,7 @@
  
     color: var( --main-heading);
     padding: 65px 60px 15px 65px;
+    font-size: 32.5px;
 }
 
 .card-container .card-information .card-slogan .slogan{
@@ -52,18 +55,32 @@
 
 .card-container .card-information .card-numbers .info .counter-type{
     color: var(--stat-headings);
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+   
 }
 
 
 .card-image{
+    background-image: url(../images/image-header-desktop.jpg);
+    background-position:center;
+    background-size: cover;
     width: 486px;
     height: 402px;
-
+    border-radius: 0 10px 10px 0;
 }
 
-.image-card{
-    width: 100%;
+.overlay{
+    background-color: var(--accent) ;
+    width: 486px;
+    height: 402px;
+    opacity: 0.5;
+    border-radius: 0 10px 10px 0;
 }
+
+
+
 
 
 
