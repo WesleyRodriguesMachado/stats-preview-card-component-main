@@ -1,0 +1,85 @@
+@media(max-width:955px){
+    .card-image{
+        background-image: url(../images/image-header-mobile.jpg);
+        border-radius: 10px 10px 0 0 ;
+        
+    }
+
+    .card-container{
+        flex-direction: column-reverse;
+    }
+
+
+    .card-container .card-information{
+        
+        border-radius: 0  0 10px 10px ;
+        max-width: 486px;
+        
+        
+    }
+
+    
+}
+
+@media(max-width:500px){
+  
+
+    .card-container{
+        height: 100%;
+    }
+    .card-container .card-information .card-numbers{
+        flex-direction: column;
+        padding: 0;
+        
+        
+    }
+
+
+    .card-container .card-information{
+        height: 100%;
+        max-width: 330px;
+        margin-bottom: 50px;
+    }
+
+    .card-container .card-information .card-numbers .info{
+      text-align: center;
+     
+       }
+
+       .card-container .card-information .card-slogan{
+       
+            padding:10px 30px;
+            text-align: center;
+            font-size: 28px;
+
+       }
+
+       .card-image{
+        max-width: 330px;
+        max-height: 280px;
+        margin-top: 30px;
+       }
+
+       .overlay{
+        max-width: 330px;
+        max-height: 280px;
+       }
+
+       .card-container .card-information{
+        
+        border-radius: 0  0 10px 10px ;
+        max-width: 330px;
+        
+    }
+
+    .card-container .card-information .card-text{
+        
+       
+        text-align: center;
+        padding: 10px 45px;
+        
+    }
+    
+
+
+}
